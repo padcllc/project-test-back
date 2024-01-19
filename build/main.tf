@@ -1,7 +1,3 @@
-provider "aws" {
-  region = var.aws_region
-}
-
 resource "aws_db_instance" "my_database" {
   identifier             = "mydbinstance"
   engine                 = "mysql"  # Replace with your desired database engine
