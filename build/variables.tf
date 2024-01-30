@@ -48,3 +48,6 @@ variable "ecs_memory" {
   default     = 512  # Adjust as needed
 }
 
+variable "ecr_repository_name" {
+  description = "Container registry variable"
+}
