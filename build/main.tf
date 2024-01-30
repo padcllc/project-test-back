@@ -1,6 +1,6 @@
 resource "aws_db_instance" "my_database" {
   identifier             = "mydbinstance"
-  engine                 = "mysql"  # Replace with your desired database engine
+  engine                 = "postgres"  # Replace with your desired database engine
   instance_class         = "db.t2.micro"  # Replace with your desired instance type
   username               = var.db_username
   password               = var.db_password
